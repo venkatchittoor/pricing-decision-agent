@@ -274,6 +274,37 @@ That combination of autonomous action and calibrated deference is what makes it 
 
 ---
 
+## What Makes This Truly Autonomous
+
+The auto-apply action alone does not make this agent autonomous. A simple script can write to a Delta table. That is just automation.
+
+What makes this agent autonomous is the full loop — and specifically what happens at each step:
+
+1. **It decided *what* to look at** — no one told it which categories to flag. It read all 7 and formed its own view based on the signal landscape.
+
+2. **It reasoned about *why*** — it did not just detect high returns. It interpreted what high returns *meant* in the context of price point, AOV, and revenue pattern. Same metric, different meaning depending on context.
+
+3. **It assessed its own confidence** — this is the part most people miss. The agent did not just decide *what* to do, it decided *how sure it was* about doing it. That meta-reasoning — thinking about the quality of its own thinking — is the defining characteristic of an autonomous agent.
+
+4. **It acted selectively based on that confidence** — Home & Kitchen got auto-applied. Beauty got escalated. Books got flagged as a non-pricing problem entirely. Three different outcomes from three different reasoning paths.
+
+A useful way to think about where this sits on the automation spectrum:
+
+```
+Script          Automation       Agent           Autonomous Agent
+  │                 │              │                    │
+Hardcoded       If/else         Reasons             Reasons AND
+steps           rules           about what          reasons about
+                                to do               its own certainty
+                                                    before acting
+```
+
+Most AI demos live in the third column — they reason about what to do, but always produce the same type of output (a recommendation, a report, a summary). This project lives in the fourth column: the agent reasons about its own certainty and uses that to gate whether it acts autonomously or defers to a human.
+
+That is the difference between an AI assistant and an AI agent.
+
+---
+
 ## Portfolio Context
 
 This project is part of a Databricks + Claude API data engineering portfolio:
