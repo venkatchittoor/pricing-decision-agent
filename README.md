@@ -4,17 +4,19 @@
 
 ---
 
-## The Problem
+## Business Impact
+
+> Manual pricing review cycles introduce delays, inconsistency, and analyst bottlenecks. This agent eliminates the bottleneck for high-confidence decisions — applying price changes instantly on HIGH confidence signals while routing MEDIUM/LOW confidence cases to human review with full reasoning attached. Autonomous where safe, deferential where it matters.
 
 Pricing is one of the highest-leverage decisions in e-commerce — and one of the hardest to get right consistently.
 
 Most businesses either:
 - **Under-react** — review pricing quarterly in spreadsheets, missing signals hiding in daily transaction data
-- **Over-automate** — set rigid rules (*"if return rate > 15%, discount 10%"*) that fire incorrectly because they look at one signal in isolation
+- **Over-automate** — set rigid rules ("if return rate > 15%, discount 10%") that fire incorrectly because they look at one signal in isolation
 
-The gap between these two extremes is judgment — the ability to look at multiple signals simultaneously, weigh them in context, and decide both *what* to do and *how confident* to be about it.
+The gap between these two extremes is judgment — the ability to look at multiple signals simultaneously, weigh them in context, and decide both what to do and how confident to be about it.
 
-This project fills that gap with an autonomous pricing agent.
+This agent fills that gap.
 
 ---
 
